@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient( rgba(25, 45, 60, 0.75), rgba(25, 45, 60, 0.75)), url("https://thumbs.dreamstime.com/b/top-view-young-coworking-people-working-laptops-paper-documents-group-college-students-using-laptop-sittin-114976555.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+/* HEADER */
+
+header {
+    background: #264653;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #2a9d8f;
+}
+
+.active {
+    background: #2a9d8f;
+}
+
+
+/* SECTION */
+
+.schedule-section {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.schedule-section h2 {
+    font-size: 58px;
+    text-shadow: 2px 2px 6px black;
+    letter-spacing: 1px;
+}
+
+.schedule-section hr {
+    width: 80%;
+    margin: 18px auto 35px;
+    border: 2px solid #e9c46a;
+}
+
+
+/* TABLE */
+
+table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.95);
+    color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .4);
+}
+
+th {
+    background: #e76f51;
+    color: white;
+    font-size: 28px;
+    padding: 18px;
+}
+
+td {
+    font-size: 24px;
+    padding: 20px;
+}
+
+th,
+td {
+    border: 1px solid #d6d6d6;
+}
+
+tbody tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+tbody tr:hover {
+    background: #f1e3d3;
+    transition: 0.3s;
+}
